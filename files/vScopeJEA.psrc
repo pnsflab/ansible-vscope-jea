@@ -1,0 +1,15 @@
+@{
+
+# ID used to uniquely identify this document
+GUID = '2453f955-9c71-42ce-b08f-665d2094dd64'
+
+# Author of this document
+Author = 'Filip Jansson'
+
+# Cmdlets to make visible when applied to a session
+VisibleCmdlets = @('Get-WmiObject', 'ConvertTo-Xml', 'ConvertTo-JSON', 'Get-Command', 'Get-Variable', 'Get-Item', 'Get-ChildItem', 'Get-ItemProperty')
+
+# Providers visible when applied to a session
+VisibleProviders = 'Registry'
+
+}
